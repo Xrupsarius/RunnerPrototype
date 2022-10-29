@@ -2,7 +2,7 @@
     "name": "MoveController",
     "maps": [
         {
-            "name": "MoveController",
+            "name": "Player",
             "id": "264b92ef-60f4-4f4f-b926-22b3dd25cbe4",
             "actions": [
                 {
@@ -12,20 +12,17 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "19438eeb-f463-4d97-b260-28f2712fb2ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "c575286e-e4e7-427a-8378-a88a90daf6bf",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "PersonMove",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "0928d642-ca16-4ae5-8d15-3211dafaaa1b",
@@ -67,6 +64,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "PersonMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e9fe7c1-727d-4a9d-ab29-5435a19203f5",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

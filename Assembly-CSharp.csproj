@@ -55,6 +55,8 @@
      <Compile Include="Assets\Scripts\PersonScript.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\TriggerController.cs" />
+     <Compile Include="Assets\Scripts\MoveController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
